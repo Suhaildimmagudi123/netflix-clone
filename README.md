@@ -1,58 +1,47 @@
-# Netflix Clone 
+# Netflix Clone – Full Stack Movie Streaming Platform
 
-A full-stack Netflix-inspired movie streaming platform built with Django and React.
-
-##  Live Demo
-- Frontend: [Coming Soon]
-- Backend API: [Coming Soon]
+## Live Demo
+Frontend: https://netflix-clone-frontend-lemon.vercel.app  
+Backend API: https://netflix-clone-078z.onrender.com/api/movies/
 
 ## Tech Stack
-**Frontend:**
 - React.js
-- React Router
-- Axios
-- CSS3
+- Django REST Framework
+- PostgreSQL
+- Render
+- Vercel
 
-**Backend:**
+## Features
+- User signup and login
+- Browse movies
+- Movie details page
+- Trailer link support
+- Watchlist functionality
+- RESTful API
+- Token-based authentication
+- Protected routes
+- Responsive Netflix-like UI
+
+## Architecture
+React Frontend → Django API → PostgreSQL Database
+
+## Backend
 - Python
 - Django
 - Django REST Framework
 - Token Authentication
 
-**Database:**
+## Database
 - SQLite (Development)
 - PostgreSQL (Production)
 
-## Features
-- Browse movies and TV shows
-- Search functionality
-- User authentication (Login/Signup)
-- Add movies to watchlist/favorites
-- Responsive Netflix-like UI
-- Token-based authentication
-- Protected routes
+## Running Locally
 
-##  Running Locally
-
-**Backend:**
+### Backend
 ```bash
 cd netflix-clone
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 python manage.py migrate
-python manage.py runserver
-```
-
-**Frontend:**
-```bash
-cd frontend
-npm install
-npm start
-```
-
-##  Screenshots
-![Home Page](screenshots/home.png)
-
-##  Developer
-Built by Suhail as a portfolio project.
+python manage.py runserverolio project.
