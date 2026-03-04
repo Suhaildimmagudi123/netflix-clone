@@ -45,10 +45,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
-<<<<<<< HEAD
-=======
-python manage.py runserver
+```
 
 **Developer**  
 Built by **Suhail Dimmagudi**
->>>>>>> 57402a8 (Update README)
